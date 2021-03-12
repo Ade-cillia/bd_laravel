@@ -1,0 +1,33 @@
+.comic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.comic .maxWidth {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.allComics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 700px;
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttonChar {
+  margin: 20px;
+}

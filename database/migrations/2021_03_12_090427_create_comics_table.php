@@ -13,13 +13,13 @@ class CreateComicsTable extends Migration
      */
     public function up()
     {
-        Schema::create('comics', function (Blueprint $table) {
+        Schema::create('characters', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
             $table->string('name');
             $table->integer('publication_year');
             $table->string('affiliate_comic');
-            $table->integer('draftsman');
+            $table->integer('draftsman_id');
         });
     }
 

@@ -31,16 +31,78 @@
   color: white;
 }
 
-.menu {
+.comic {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   border: 2px solid black;
-  width: 600px;
+  margin-top: 20px;
+  margin-right: 40px;
 }
-.menu .maxWidth {
+.comic .maxWidth {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
 }
 
-.allMenus {
+.allComics {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 700px;
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttonChar {
+  margin: 20px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+}
+.list .characterModif:nth-child(1) {
+  border-top: 2px solid black;
+}
+.list .characterModif {
+  width: 600px;
+}
+.list .characterModif div {
+  width: 100%;
+  display: flex;
+}
+.list .characterModif div .leftPartInfo {
+  width: 30%;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+.list .characterModif div .rightPartInfo {
+  width: 70%;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: flex-end;
+}
+.list .characterModif div .rightPartInfo .input {
+  width: 100%;
+}
+.list .characterModif div .rightPartInfo select {
+  width: 100%;
+}
+.list .characterModif div .rightPartInfo .checkDraftsman {
+  display: block;
+}
+
+.divButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }

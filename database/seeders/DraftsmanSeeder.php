@@ -18,17 +18,17 @@ class DraftsmanSeeder extends Seeder
             [
                 'name' => 'Matthew Abram Groening',
                 'birth_year' => 1954,
-                'nationality' => 'autreComics',
+                'nationality' => 'Américain',
             ],
             [
                 'name' => 'Clarke',
                 'birth_year' => 1867,
-                'nationality' => 'autreComics',
+                'nationality' => 'Irlandais',
             ],
             [
                 'name' => 'Peyo',
                 'birth_year' => 1928,
-                'nationality' => 'autreComics',
+                'nationality' => 'Belge',
             ],
         ]);
     }
