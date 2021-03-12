@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "ACCA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AACD,AAAA,IAAI,CAAA;EACA,gBAAgB,ECLb,OAAO;CDMb;;AGLD,AAAA,OAAO,CAAA;EACH,gBAAgB,EAAE,cAAc;CACnC",
+    "sources": [
+        "main.scss",
+        "base/_base.scss",
+        "base/_variables.scss",
+        "base/_variables.scss",
+        "layouts/_header.scss",
+        "base/_variables.scss",
+        "pages/_home.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

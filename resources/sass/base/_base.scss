@@ -1,0 +1,16 @@
+@import "../base/variables";
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+    text-decoration: $blue-1 wavy underline;
+    
+    
+    
+}
