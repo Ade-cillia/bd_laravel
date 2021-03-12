@@ -1,0 +1,43 @@
+.list{
+    display: flex;
+    justify-content: center;
+    .characterModif:nth-child(1){
+        border-top: 2px solid black;
+    }
+    .characterModif{
+        width: 600px;
+        div{
+            width: 100%;
+            display: flex; 
+            
+            .leftPartInfo{
+                width: 30%;
+                border-bottom: 2px solid black;
+                border-left: 2px solid black;
+            }
+            .rightPartInfo{
+                width: 70%;
+                border-left: 2px solid black;
+                border-right: 2px solid black;
+                border-bottom: 2px solid black;
+                display: flex;
+                justify-content: flex-end;        
+                .input{
+                    width: 100%;
+                }
+                select{
+                    width: 100%;
+                }
+                .checkDraftsman{
+                    display: block;
+                }
+            }
+        }
+    }
+  
+}
+.divButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}

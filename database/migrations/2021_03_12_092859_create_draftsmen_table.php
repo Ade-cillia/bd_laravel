@@ -17,7 +17,7 @@ class CreateDraftsmenTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string('name');
-            $table->string('birth_year');
+            $table->integer('birth_year');
             $table->string('nationality');
         });
     }
