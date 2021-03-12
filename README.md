@@ -18,6 +18,6 @@ effectuez les commandes :
 
 ### Explication du fonctionnement du site:
 
-ce projet
+ce site met en pratique 2 CRUD complet par raport à des personnages de Bandes Déssinées relier à leur déssinateur. 
 
 
