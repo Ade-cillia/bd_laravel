@@ -4,7 +4,7 @@
 
 @section('content')
     <h1 class="title">Modification d'un dessinateur</h1>
-    <form action="/modifDraftsman/{{$character->id}}" method="post">
+    <form action="/modifDraftsman/{{$draftsman->id}}" method="post">
         @csrf
         <div class="list">
             <div class="characterModif">
