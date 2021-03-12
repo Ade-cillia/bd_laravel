@@ -31,16 +31,31 @@
   color: white;
 }
 
-.menu {
+.comic {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   border: 2px solid black;
-  width: 600px;
+  margin-top: 20px;
+  margin-right: 40px;
 }
-.menu .maxWidth {
+.comic .maxWidth {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
 }
 
-.allMenus {
+.allComics {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 700px;
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

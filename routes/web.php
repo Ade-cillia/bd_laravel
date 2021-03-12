@@ -14,3 +14,5 @@ use App\Http\Controllers\NavController;
 */
 
 Route::get('/', [NavController::class, 'index']);
+
+Route::get('/characterList', [NavController::class, 'characterList']);

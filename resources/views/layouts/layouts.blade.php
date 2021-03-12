@@ -11,7 +11,7 @@
     <header class="header">
         <ul >
             <li><a href="/">Accueil</a></li>
-            <li><a href="#">Liste des Personnages</a></li>
+            <li><a href="/characterList">Liste des personnages</a></li>
             <li><a href="#">Liste des dessinateurs</a></li>
         </ul>
     </header>
